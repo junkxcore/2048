@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>2048</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <link rel="stylesheet" href="css/style_phone.css">
+<style>
+   article, aside, details, figcaption, figure, footer,header,
+   hgroup, menu, nav, section { display: block; }
+</style>
+</head>
+
+<body class="body">
+    <header class="header">
+       <div class="score">СЧЕТ <div class="scoreReal" id="score"> 0</div> </div>
+       <div class="nameGame">2048</div>
+       <div class="recordScore">РЕКОРД <div class="scoreReal" id="recordScore"> 0</div> </div>
+    </header>
+        
+<main class="main">
+  
+  <div class="osnova"> 
+
+
+  <div class="game"> 
+    <table class="table" id="table">
+        <tr>
+          <td id="id00"></td>
+          <td id="id01"></td>
+          <td id="id02"></td>
+          <td id="id03"></td>
+        </tr>
+        <tr>
+          <td id="id10"></td>
+          <td id="id11"></td>
+          <td id="id12"></td>
+          <td id="id13"></td>
+        </tr>
+        <tr>
+          <td id="id20"></td>
+          <td id="id21"></td>
+          <td id="id22"></td>
+          <td id="id23"></td>
+        </tr>
+        <tr>
+          <td id="id30"></td>
+          <td id="id31"></td>
+          <td id="id32"></td>
+          <td id="id33"></td>
+        </tr>
+
+    </table>
+
+  </div>
+
+
+<button id="newGame" class="newGame"> НАЧАТЬ ЗАНОВО</button>
+  </div>
+
+
+
+
+</main>
+
+    <footer class="fotter">
+      Моя вторая игра! 2048 <br>
+      &copy Иван Соловьев <br>
+      Версия 1.1  <br>
+      25.03.2024 год <br><br>
+
+      Правила игры: С помощью свайпов Влево, Вправо, Вверх, Вниз на экране двигайте кубиками. Если на своем пути встретятся два кубика одним наминалом, они сложатся, и появится новый кубик с суммой двух предыдущих. Подвох в том, что при каждом новом действии будет появлятся новый кубик с номиналом 2 или 4. Ваша задача дойти до цифры 2048 или Выше).<br>
+      Ы.З. К сожалению это Веб версия, и у нее нет сервера, поэтому при обновлении страницы Рекорд сбросится(
+    </footer>
+   
+<script src="js/script_phone.js"></script>
+</body>
+
+</html>

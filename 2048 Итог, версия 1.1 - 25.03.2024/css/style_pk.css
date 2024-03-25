@@ -1,0 +1,157 @@
+body {
+  background: gray;
+  position: absolute;
+  width: 100%;
+  border: 0px solid #000;
+  margin: 0;
+}
+
+.header {
+  border: 0px solid #000;
+  width: 600px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  margin-top: 5px;
+  box-shadow: 0px 0px 30px 10px red;
+  border-radius: 25px;
+  background: #585859;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+
+.nameGame {
+  width: 200px;
+  height: 85px;
+  border: 0px solid #000;
+  position: relative;
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  font-family: Arial;
+  background-image: linear-gradient(yellow, red);
+  user-select: none;
+  font-weight: 700;
+  box-shadow: 0px 0px 10px 5px red;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  z-index: 10;
+}
+
+.score {
+  width: 200px;
+  height: 88px;
+  border: 0px solid #000;
+  position: relative;
+  font-size: 25px;
+  justify-content: center;
+  border-radius: 25px;
+  font-family: Arial;
+  user-select: none;
+  font-weight: 700;
+  text-align: center;
+}
+.recordScore {
+  width: 200px;
+  height: 88px;
+  border: 0px solid #000;
+  position: relative;
+  font-size: 25px;
+  justify-content: center;
+  border-radius: 25px;
+  font-family: Arial;
+  user-select: none;
+  font-weight: 700;
+  text-align: center;
+}
+
+.scoreReal {
+  margin-top: 10px;
+  background: #e7e7e7;
+}
+
+
+
+
+
+.main {
+  border: 0px solid #000;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  box-shadow: 0px 0px 0px 0px red;
+  border-radius: 5px;
+}
+
+
+.osnova {
+  border: 0px solid #000;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  position: absolute;
+  background: #3a3a3a;
+  border-radius: 5px;
+}
+
+
+.fotter {
+  border: 0px solid #000;
+  margin: 50px;
+  background: #e7e7e7;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.game {
+  border: 0px solid #000;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.table {
+  border: 5px solid #000;
+  border-collapse: separate;
+  user-select: none;
+  font-size: 35px;
+  font-family: Arial;
+  border-radius: 5px;
+  margin: 0px;
+  background: #000;
+
+}
+.table td {
+  border: 1px solid #000;
+  width: 116px;
+  height: 116px;
+  text-align: center;
+  background: #9b9f9c;
+  border-radius: 10px;
+  transition-property: background;
+  transition-duration: 0.3s;
+}
+
+.newGame {
+  color: #000;
+  border: 3px solid #000;
+  width: 500px;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  user-select: none;
+  font-family: Arial;
+  background-image: linear-gradient(yellow, red);
+  font-weight: 700;
+  text-shadow: 0px 0px 5px #fff;
+  margin-top: 10px;
+}
+

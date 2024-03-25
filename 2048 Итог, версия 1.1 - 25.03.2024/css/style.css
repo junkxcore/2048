@@ -1,0 +1,132 @@
+body {
+  background: gray;
+  position: absolute;
+  width: 100%;
+  min-width: 500px;
+  border: 0px solid #000;
+  margin: 0;
+  touch-action: none;
+}
+
+.header {
+  border: 0px solid #000;
+  width: 850px;
+  height: 198px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  margin-top: 25px;
+  box-shadow: 0px 0px 30px 10px red;
+  border-radius: 50px;
+  background: #585859;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.score {
+  width: 275px;
+  height: 199px;
+  border: 0px solid #000;
+  position: relative;
+  font-size: 50px;
+  justify-content: center;
+  border-radius: 50px;
+  font-family: Arial;
+  user-select: none;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.nameGame {
+  width: 300px;
+  height: 130px;
+  border: 0px solid #000;
+  position: relative;
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  font-family: Arial;
+  background-image: linear-gradient(yellow, red);
+  user-select: none;
+  font-weight: 700;
+  box-shadow: 0px 0px 10px 5px red;
+  margin-top: 30px;
+  margin-bottom: 13px;
+  z-index: 10;
+}
+
+.recordScore {
+  width: 275px;
+  height: 199px;
+  border: 0px solid #000;
+  position: relative;
+  font-size: 50px;
+  justify-content: center;
+  border-radius: 50px;
+  font-family: Arial;
+  user-select: none;
+  font-weight: 700;
+  text-align: center;
+}
+
+.scoreReal {
+  margin-top: 10px;
+  background: #e7e7e7;
+  border: 0px solid #000;
+  height: 60px;
+  margin-top: 62px;
+}
+
+
+.main {
+  border: 0px solid #000;
+  width: 850px;
+  height: 850px;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  box-shadow: 0px 0px 15px 5px red;
+  border-radius: 5px;
+}
+
+
+.osnova {
+  border: 0px solid #000;
+  width: 850px;
+  height: 850px;
+  display: inline-block;
+  position: absolute;
+  background: #3a3a3a;
+  border-radius: 5px;
+}
+
+.newGame {
+  color: #000;
+  border: 3px solid #000;
+  width: 750px;
+  height: 80px;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  user-select: none;
+  font-family: Arial;
+  background-image: linear-gradient(yellow, red);
+  font-weight: 800;
+  text-shadow: 0px 0px 5px #fff;
+  margin-top: 20px;
+  margin: auto;
+  margin-top: 200px;
+  text-decoration: none;
+}
+
+.fotter {
+  border: 0px solid #000;
+  margin: 50px;
+  background: #e7e7e7;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 100px;
+}
